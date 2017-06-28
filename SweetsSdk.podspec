@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/vast-z/SweetsSdk'
+  s.homepage         = 'https://github.com/vast-z/IOS_SweetsSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vast-z' => 'hz.zhao@aiesst.com' }
@@ -42,4 +42,3 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'SweetsSdk/Classes/src/SweetsSdk.h'
 
   s.dependency 'Cordova', '~> 4.4.0'
-end
