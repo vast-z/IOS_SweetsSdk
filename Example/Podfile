@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SweetsSdk_Example' do
+  pod 'SweetsSdk', :path => '../'
+
+  target 'SweetsSdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,19 @@
+PODS:
+  - Cordova (4.4.0)
+  - SweetsSdk (0.1.0):
+    - Cordova (~> 4.4.0)
+
+DEPENDENCIES:
+  - SweetsSdk (from `../`)
+
+EXTERNAL SOURCES:
+  SweetsSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cordova: 561576155c420c54441d99b855de12c6e7b51088
+  SweetsSdk: 0cf7234d0573f8f634e19aae8255a953fad6c97e
+
+PODFILE CHECKSUM: 0ba8a0d6bfc8897fb2bd3b31a714b807322144e2
+
+COCOAPODS: 1.2.1
