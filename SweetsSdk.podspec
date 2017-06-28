@@ -20,25 +20,20 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
   s.homepage         = 'https://github.com/vast-z/IOS_SweetsSdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vast-z' => 'hz.zhao@aiesst.com' }
   s.source           = { :git => 'https://github.com/vast-z/SweetsSdk.git', :tag => s.version.to_s }
-
   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.library='c++','z','sqlite3'
   s.frameworks='SystemConfiguration', 'CFNetwork', 'Security', 'CoreTelephony', 'AVFoundation','CoreLocation'
   s.vendored_libraries='SweetsSdk/Classes/Plugins/cordova-plugin-payment/*.a'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'SweetsSdk/Classes/**/*'
-  
+  s.ios.deployment_target ='8.0'
+  s.source_files='SweetsSdk/Classes/**/*'
   # s.resource_bundles = {
   #    'SweetsSdk' => ['SweetsSdk/Assets/*']
   # }
-  s.public_header_files = 'SweetsSdk/Classes/src/SweetsSdk.h'
-
-  s.dependency 'Cordova', '~> 4.4.0'
+  s.public_header_files='SweetsSdk/Classes/src/SweetsSdk.h'
+  s.dependency 'Cordova','~>4.4.0'
+end
