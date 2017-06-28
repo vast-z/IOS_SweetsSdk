@@ -22,7 +22,7 @@ pod "SweetsSdk"
 
 ## Author
 
-vast-z, hz.zhao@aiesst.com
+vast-z, vast.z@outlook.com
 
 ## License
 
