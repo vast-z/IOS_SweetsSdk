@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vast-z' => 'hz.zhao@aiesst.com' }
-  s.source           = { :git => 'https://github.com/vast-z/SweetsSdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/vast-z/IOS_SweetsSdk.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.library='c++','z','sqlite3'
   s.frameworks='SystemConfiguration', 'CFNetwork', 'Security', 'CoreTelephony', 'AVFoundation','CoreLocation'
